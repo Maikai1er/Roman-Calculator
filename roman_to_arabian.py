@@ -20,4 +20,3 @@ def roman_to_arabian(num):
             current_sum += symbols[symbol]
         temp_symbol = symbols[symbol]
     return current_sum
-

@@ -46,4 +46,3 @@ def arabian_to_roman(num):
                     if digit == 0:
                         break
     return ''.join(result_list)
-
