@@ -30,7 +30,6 @@ def convert_roman_to_arabian(num):
 # def convert_arabian_to_roman(num):
 
 
-
 result = convert_roman_to_arabian(input_number)
 
 print(result)
