@@ -24,7 +24,11 @@ def convert_roman_to_arabian(num):
             current_sum -= symbols[symbol]
         else:
             current_sum += symbols[symbol]
+        temp_symbol = symbols[symbol]
     return current_sum
+
+# def convert_arabian_to_roman(num):
+
 
 
 result = convert_roman_to_arabian(input_number)
